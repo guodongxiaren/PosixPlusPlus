@@ -1,2 +1,3 @@
-# PosixPlusPlus
-Posix++:A C++ library wrapped API of Posix standard  
+# Posix++
+A C++ library wrapped API of Posix standard  
+------
