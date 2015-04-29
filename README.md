@@ -1,3 +1,3 @@
 # Posix++
-A C++ library wrapped API of Posix standard  
+A C++ library packaged C API of Posix standard  
 ------
