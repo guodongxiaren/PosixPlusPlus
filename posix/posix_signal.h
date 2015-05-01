@@ -4,19 +4,19 @@
 #include <signal.h>
 using namespace std;
 namespace posix{
-    class Signal{
-        public:
-        Signal(int sig);
-        Signal(int sig,sighandler_t handler);
+class Signal{
+    public:
+    Signal(int sig);
+    Signal(int sig,sighandler_t handler);
 
-        void set_sig_handler(sighandler_t handler);
+    void set_sig_handler(sighandler_t handler);
 
-        void emit() const;
-        void emit(int pid) const;
+    void emit() const;
+    void emit(int pid) const;
 
-        private:
-        int m_signal;
-    };
+    private:
+    int m_signal;
+};
 }
     
 #endif
