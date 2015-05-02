@@ -1,7 +1,9 @@
 #ifndef _POSIX_SIGNAL_H
 #define _POSIX_SIGNAL_H
+
 #include <iostream>
 #include <signal.h>
+
 using namespace std;
 namespace posix{
 class Signal{
